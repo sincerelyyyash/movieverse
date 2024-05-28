@@ -15,9 +15,11 @@
   --black3: #fec7b4;
   --black-lighter: #FEC7B4;
   --black-light: #F7418F;
-  --red: #D01110;
+  --red: #FFFFFF;
   --orange: #f89e00;
-  --gradient: linear-gradient(180deg, rgba(208,17,16,1) 1%, rgba(222,0,1,1) 22%, rgba(151,12,16,1) 70%);
+  // --gradient: linear-gradient(180deg, rgba(208,17,16,1) 1%, rgba(222,0,1,1) 22%, rgba(151,12,16,1) 70%);
+  --gradient: linear-gradient(180deg, rgba(255,255,255,1) 1%, rgba(255,255,255,0.9) 22%, rgba(250,250,250,1) 70%);
+
 
 }
 
@@ -38,7 +40,7 @@ body {
 .skeleton {
   position: relative;
   overflow: hidden;
-  background-color: rgba(208, 16, 16, 0.715);
+  background-color: rgba(255, 180, 180, 0.715);
   &::after {
       position: absolute;
       top: 0;
@@ -46,7 +48,7 @@ body {
       bottom: 0;
       left: 0;
       transform: translateX(-100%);
-      background-image: linear-gradient(180deg, rgba(208,17,16,1) 1%, rgba(222,0,1,1) 42%, rgba(151,12,16,1) 82%);
+      background-image: linear-gradient(180deg, rgba(255, 200, 200, 1) 1%, rgba(255, 150, 150, 1) 42%, rgba(255, 100, 100, 1) 82%); /* Lighter gradient colors */
       animation: shimmer 2s infinite;
       content: "";
   }

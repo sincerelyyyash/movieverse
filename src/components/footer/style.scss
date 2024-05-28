@@ -1,10 +1,10 @@
 @import "../../mixins.scss";
 .footer {
-    background: var(--gradient);
+    background: black; 
     padding: 50px 0;
     position: relative;
     .contentWrapper {
-        color: var(--black);
+        color: white; 
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -53,7 +53,7 @@
             width: 50px;
             height: 50px;
             border-radius: 50%;
-            background-color: var(--black);
+            background-color: black; /* Change the icon background to black */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -61,7 +61,7 @@
             transition: all ease 0.3s;
             color: var(--red);
             &:hover {
-                box-shadow: 0 0 0.725em var(--black);
+                box-shadow: 0 0 0.725em black; /* Adjust the shadow color to black */
             }
         }
     }

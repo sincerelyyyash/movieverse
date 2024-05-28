@@ -51,7 +51,7 @@ const HeroBanner = () => {
                             damping: 100
                         }}
                     >
-                        <span className="title">MovieVerse</span>
+                        <span className="title">MovieeVerse</span>
                     </motion.div>
 
                     <span className="subTitle">Where imagination {" "}
